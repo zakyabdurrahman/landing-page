@@ -1,7 +1,11 @@
 * {
     box-sizing: border-box;
 }
- .hero{
+body {
+    font-family: 'roboto';
+}
+
+.hero{
      display: flex;
      height: 100vh;
      flex-direction: column;
@@ -88,3 +92,57 @@
      text-decoration: none;
      color: white;
  }
+
+.info {
+    height: 100vh;
+}
+
+.info > h1 {
+    font-size: 48px;
+    color: #1F2937;
+    font-family: 'Montserrat';
+    text-align: center;
+    margin: 48px 0px;
+    
+}
+.card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 150px;
+}
+
+.card-img {
+    border: solid 5px;
+    width: 48px;
+    height: 48px;
+    border-color: royalblue;
+    height: 150px;
+    width: 150px;
+    border-radius: 16px;
+    background: no-repeat center;
+    background-size: cover;
+}
+
+.card-group{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    gap: 90px;
+}
+
+.card p {
+    text-align: center;
+    color: #484f5c;
+}
+
+.tenpura {
+    background-image: url('images/tenpura.jpeg');
+}
+.bubur {
+    background-image: url('images/bubur_singkawang.jpeg')
+}
+
+.croffle {
+    background-image: url('images/croffle.jpeg')
+}
