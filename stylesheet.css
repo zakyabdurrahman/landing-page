@@ -184,6 +184,38 @@ body {
 
 .outro-content{
     flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.outro-cta-container{
+    background-color: #3882f6;
+    color: white;
+    padding: 28px 64px;
+    display:flex;
+    border-radius: 24px;
+    gap: 125px;
+}
+
+.outro-cta-button{
+    justify-content: center;
+    align-items: center;
+    display:flex;
+}
+
+.outro-cta-button > button {
+    padding: 12px 28px;
+    border-radius: 18px;
+    background-color: #3882f6;
+    color: white;
+    border: solid white 1px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.outro-cta-container h1{
+    font-size: 24px;
+    
 }
 
 .outro-footer {
