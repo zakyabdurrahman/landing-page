@@ -42,7 +42,8 @@ body {
      display: flex;
 
  }
- .hero p{
+ .hero p,
+ .outro-ctx-text p{
      font-size: 18px;
  } 
 .hero-text > h1 {
